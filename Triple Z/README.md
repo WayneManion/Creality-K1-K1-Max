@@ -66,7 +66,7 @@ z_positions:
   268.4, -19.1 # stepper_z1 screw
   110.0, 261.4 # stepper_z2 screw
 ```
-Do not simply copy these values into your config. The order of the coordinate pairs must match the order of the z steppers in your configuration. In the example above, the stepper motor defined as stepper_z must be the one nearest to the first coordinate pair. The stepper motor defined as stepper_z1 mucst be the stepper motor nearest the second coordinate pair. If you are adding triple-z to an existing config, the stepper motor nearest (110.0, 261.4) is likely defined as stepper_z. 
+Do not simply copy these values into your config. The order of the coordinate pairs must match the order of the z steppers in your configuration. In the example above, the stepper motor defined as stepper_z must be the one nearest to the first coordinate pair. The stepper motor defined as stepper_z1 must be the stepper motor nearest the second coordinate pair. If you are adding triple-z to an existing config, the stepper motor nearest (110.0, 261.4) is likely defined as stepper_z. 
 
 ![2024-09-11_8f9d08bcb95b9](https://github.com/user-attachments/assets/6ddf3d51-2e46-4c4b-9ebd-a2e615cbe783)
 ![20240216_175003](https://github.com/user-attachments/assets/d5e1bd61-5321-46d9-be9b-8bc0aee126e7)
